@@ -1,0 +1,41 @@
+﻿  PALSStudy.cpp
+C:\Users\Dominik\Desktop\Geant4MeetsPulsGenerator\1275_BS-S\PALSStudy.cpp(393,20): warning C4804: "<=": unsichere Verwendung des Typs "bool" in einer Operation
+C:\Users\Dominik\Desktop\Geant4MeetsPulsGenerator\1275_BS-S\PALSStudy.cpp(401,20): warning C4804: "<=": unsichere Verwendung des Typs "bool" in einer Operation
+C:\Users\Dominik\Desktop\Geant4MeetsPulsGenerator\1275_BS-S\PALSStudy.cpp(425,19): warning C4804: "<=": unsichere Verwendung des Typs "bool" in einer Operation
+C:\Users\Dominik\Desktop\Geant4MeetsPulsGenerator\1275_BS-S\PALSStudy.cpp(433,19): warning C4804: "<=": unsichere Verwendung des Typs "bool" in einer Operation
+C:\Users\Dominik\Desktop\Geant4MeetsPulsGenerator\1275_BS-S\PALSStudy.cpp(456,38): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+C:\Users\Dominik\Desktop\Geant4MeetsPulsGenerator\1275_BS-S\PALSStudy.cpp(457,41): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+C:\Users\Dominik\Desktop\Geant4MeetsPulsGenerator\1275_BS-S\PALSStudy.cpp(459,38): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+C:\Users\Dominik\Desktop\Geant4MeetsPulsGenerator\1275_BS-S\PALSStudy.cpp(460,41): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+C:\Users\Dominik\Desktop\Geant4MeetsPulsGenerator\1275_BS-S\PALSStudy.cpp(820,35): warning C4244: "Argument": Konvertierung von "double" in "_Ty", möglicher Datenverlust
+C:\Users\Dominik\Desktop\Geant4MeetsPulsGenerator\1275_BS-S\PALSStudy.cpp(820,35): warning C4244:         with
+C:\Users\Dominik\Desktop\Geant4MeetsPulsGenerator\1275_BS-S\PALSStudy.cpp(820,35): warning C4244:         [
+C:\Users\Dominik\Desktop\Geant4MeetsPulsGenerator\1275_BS-S\PALSStudy.cpp(820,35): warning C4244:             _Ty=int
+C:\Users\Dominik\Desktop\Geant4MeetsPulsGenerator\1275_BS-S\PALSStudy.cpp(820,35): warning C4244:         ]
+C:\Users\Dominik\Desktop\Geant4MeetsPulsGenerator\1275_BS-S\PALSStudy.cpp(821,35): warning C4244: "Argument": Konvertierung von "double" in "_Ty", möglicher Datenverlust
+C:\Users\Dominik\Desktop\Geant4MeetsPulsGenerator\1275_BS-S\PALSStudy.cpp(821,35): warning C4244:         with
+C:\Users\Dominik\Desktop\Geant4MeetsPulsGenerator\1275_BS-S\PALSStudy.cpp(821,35): warning C4244:         [
+C:\Users\Dominik\Desktop\Geant4MeetsPulsGenerator\1275_BS-S\PALSStudy.cpp(821,35): warning C4244:             _Ty=int
+C:\Users\Dominik\Desktop\Geant4MeetsPulsGenerator\1275_BS-S\PALSStudy.cpp(821,35): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(5027,24): warning C4244: "=": Konvertierung von "const _Ty" in "float", möglicher Datenverlust
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(5027,24): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(5027,24): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(5027,24): warning C4244:             _Ty=double
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(5027,24): warning C4244:         ]
+  (Quelldatei „PALSStudy.cpp“ wird kompiliert)
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(5027,24):
+  der Vorlageninstanziierungskontext (der älteste zuerst) ist
+  	C:\Users\Dominik\Desktop\Geant4MeetsPulsGenerator\1275_BS-S\PALSStudy.cpp(449,13):
+  	Siehe Verweis auf die gerade kompilierte Instanziierung "void std::fill<float*,double>(const _FwdIt,const _FwdIt,const _Ty &)" der Funktions-Vorlage.
+          with
+          [
+              _FwdIt=float *,
+              _Ty=double
+          ]
+  
+  Code wird generiert.
+  5 of 905 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Codegenerierung ist abgeschlossen.
+  PALSStudy.vcxproj -> C:\Users\Dominik\Desktop\Geant4MeetsPulsGenerator\1275_BS-S\x64\Release\PALSStudy.exe

@@ -1,0 +1,36 @@
+﻿  PALSStudy.cpp
+C:\Users\Simulationsrechner\Desktop\Geant4MeetsPulsGenerator\Geometrie\1275_BS-S\PALSStudy.cpp(399,20): warning C4804: "<=": unsichere Verwendung des Typs "bool" in einer Operation
+C:\Users\Simulationsrechner\Desktop\Geant4MeetsPulsGenerator\Geometrie\1275_BS-S\PALSStudy.cpp(407,20): warning C4804: "<=": unsichere Verwendung des Typs "bool" in einer Operation
+C:\Users\Simulationsrechner\Desktop\Geant4MeetsPulsGenerator\Geometrie\1275_BS-S\PALSStudy.cpp(431,19): warning C4804: "<=": unsichere Verwendung des Typs "bool" in einer Operation
+C:\Users\Simulationsrechner\Desktop\Geant4MeetsPulsGenerator\Geometrie\1275_BS-S\PALSStudy.cpp(439,19): warning C4804: "<=": unsichere Verwendung des Typs "bool" in einer Operation
+C:\Users\Simulationsrechner\Desktop\Geant4MeetsPulsGenerator\Geometrie\1275_BS-S\PALSStudy.cpp(462,38): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+C:\Users\Simulationsrechner\Desktop\Geant4MeetsPulsGenerator\Geometrie\1275_BS-S\PALSStudy.cpp(463,41): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+C:\Users\Simulationsrechner\Desktop\Geant4MeetsPulsGenerator\Geometrie\1275_BS-S\PALSStudy.cpp(465,38): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+C:\Users\Simulationsrechner\Desktop\Geant4MeetsPulsGenerator\Geometrie\1275_BS-S\PALSStudy.cpp(466,41): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+C:\Users\Simulationsrechner\Desktop\Geant4MeetsPulsGenerator\Geometrie\1275_BS-S\PALSStudy.cpp(826,35): warning C4244: "Argument": Konvertierung von "double" in "_Ty", möglicher Datenverlust
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Simulationsrechner\Desktop\Geant4MeetsPulsGenerator\Geometrie\1275_BS-S\PALSStudy.cpp(827,35): warning C4244: "Argument": Konvertierung von "double" in "_Ty", möglicher Datenverlust
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(5056,24): warning C4244: "=": Konvertierung von "const _Ty" in "float", möglicher Datenverlust
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\Simulationsrechner\Desktop\Geant4MeetsPulsGenerator\Geometrie\1275_BS-S\PALSStudy.cpp(455,13): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void std::fill<float*,double>(const _FwdIt,const _FwdIt,const _Ty &)" der Funktions-Vorlage.
+          with
+          [
+              _FwdIt=float *,
+              _Ty=double
+          ]
+  Code wird generiert.
+  1 of 898 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Codegenerierung ist abgeschlossen.
+  PALSStudy.vcxproj -> C:\Users\Simulationsrechner\Desktop\Geant4MeetsPulsGenerator\Geometrie\1275_BS-S\x64\Release\PALSStudy.exe

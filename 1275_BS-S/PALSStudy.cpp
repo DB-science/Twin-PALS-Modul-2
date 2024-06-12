@@ -132,20 +132,20 @@ int main() {
 	std::mt19937 generator(rd());
 
 	// Initialisiere exponentielle Verteilungen
-std::exponential_distribution<double> distribution1(1.0);
-std::exponential_distribution<double> distribution2(1.0);
-std::exponential_distribution<double> distribution3(1.0);
-std::exponential_distribution<double> distribution4(1.0);
-std::exponential_distribution<double> distribution5(1.0);
-
-
-//positron lifetime!
-int NumberOfComponentes = 3; //the number of Components the Positron lifetime Spectrum should have. 1 to 5 Components availible, Intensity must add to 1.
-double lifetime1 = 0.158;double intensity1 = 0.825;
-double lifetime2 = 0.380;double intensity2 = 0.172;
-double lifetime3 = 2.750;double intensity3 = 0.003;
-double lifetime4 = 0.0; double intensity4 = 0.00;
-double lifetime5 = 0.0; double intensity5 = 0.00;
+	std::exponential_distribution<double> distribution1(1.0);
+	std::exponential_distribution<double> distribution2(1.0);
+	std::exponential_distribution<double> distribution3(1.0);
+	std::exponential_distribution<double> distribution4(1.0);
+	std::exponential_distribution<double> distribution5(1.0);
+	
+	
+	//positron lifetime!
+	int NumberOfComponentes = 3; //the number of Components the Positron lifetime Spectrum should have. 1 to 5 Components availible, Intensity must add to 1.
+	double lifetime1 = 0.158;double intensity1 = 0.825;
+	double lifetime2 = 0.380;double intensity2 = 0.172;
+	double lifetime3 = 2.750;double intensity3 = 0.003;
+	double lifetime4 = 0.0; double intensity4 = 0.00;
+	double lifetime5 = 0.0; double intensity5 = 0.00;
 
 
 

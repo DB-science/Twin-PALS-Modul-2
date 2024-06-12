@@ -132,25 +132,24 @@ int main() {
 	std::mt19937 generator(rd());
 
 	// Initialisiere exponentielle Verteilungen
-	std::exponential_distribution<double> distribution1(1.0);
-	std::exponential_distribution<double> distribution2(1.0);
-	std::exponential_distribution<double> distribution3(1.0);
-	std::exponential_distribution<double> distribution4(1.0);
-	std::exponential_distribution<double> distribution5(1.0);
+std::exponential_distribution<double> distribution1(1.0);
+std::exponential_distribution<double> distribution2(1.0);
+std::exponential_distribution<double> distribution3(1.0);
+std::exponential_distribution<double> distribution4(1.0);
+std::exponential_distribution<double> distribution5(1.0);
 
 
-	//positron lifetime!
-	double lifetime1 = 0.125;
-	double trapLifetime = 0.400;
-	double lifetime2 = 0.380;
-	double lifetime3 = 2.750;
-	double lifetime4 = 1.92;
+//positron lifetime!
+int NumberOfComponentes = 3; //the number of Components the Positron lifetime Spectrum should have. 1 to 5 Components availible, Intensity must add to 1.
+double lifetime1 = 0.158;double intensity1 = 0.825;
+double lifetime2 = 0.380;double intensity2 = 0.172;
+double lifetime3 = 2.750;double intensity3 = 0.003;
+double lifetime4 = 0.0; double intensity4 = 0.00;
+double lifetime5 = 0.0; double intensity5 = 0.00;
 
-	double intensity1 = 0.21;
-	double trapIntensity = 0.38;
-	double intensity2 = 0.172;
-	double intensity3 = 0.003;
-	double intensity4 = 0.235;
+
+
+	
 
 
 	//definition of vectors to manage events
@@ -260,7 +259,7 @@ int main() {
 
 
 	for (int i = 0; i < 50; i++) {
-		int stream2Index = i + 1; // Leseindex für stream2
+		int stream2Index = i + 1; // Leseindex fÃ¼r stream2
 		int stream1Index = 0;
 
 
@@ -303,8 +302,10 @@ int main() {
 				double GlTime1274 = info.startTime();
 				double GlTime511 = info511.startTime();
 
-				double PALS = positronAnhillationLifetime(lifetime1, trapLifetime, lifetime2, lifetime3, lifetime4, intensity1, trapIntensity, intensity2, intensity3, intensity4, distribution1, distribution2, distribution3, distribution4, distribution5, generator);
-
+				double PALS = positronAnhillationLifetime(NumberOfComponentes,lifetime1, lifetime2, lifetime3, lifetime4, lifetime5,
+														intensity1, intensity2, intensity3, intensity4, intensity5,
+														distribution1, distribution2, distribution3, distribution4, distribution5,
+														generator);
 
 				double pmt1 = generatePMTuncertaincy(0.55, 1.0, info.info1().numberOfCounts());
 

@@ -1,5 +1,0 @@
-E:\Streams\PulsStreamGeneratorMeetsGeant4\Neuer Ordner\x64\Release\PALSStudy.exe
-C:\Users\Simulationsrechner\Desktop\GeneratedSpectraData\Code\25uCi\x64\Release\PALSStudy.exe
-C:\Users\Simulationsrechner\Desktop\GeneratedSpectraData\Code\10uCi\x64\Release\PALSStudy.exe
-C:\Users\Simulationsrechner\Desktop\Geant4MeetsPulsGenerator\Ideales_Spektrum\x64\Release\PALSStudy.exe
-C:\Users\Simulationsrechner\Desktop\Geant4MeetsPulsGenerator\Geometrie\Ideales_Spektrum\x64\Release\PALSStudy.exe

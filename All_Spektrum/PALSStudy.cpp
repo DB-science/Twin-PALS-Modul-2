@@ -61,7 +61,7 @@ double FactorTo500mv = 2.;
 double window_511_low = (70 / FactorTo500mv);
 double window_511_high = (1061 / FactorTo500mv);
 
-double window_1275_low = (1100 / FactorTo500mv);
+double window_1275_low = (1062 / FactorTo500mv);
 double window_1275_high = (3750 / FactorTo500mv);
 
 

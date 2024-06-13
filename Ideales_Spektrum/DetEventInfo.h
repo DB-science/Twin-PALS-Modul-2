@@ -4,36 +4,148 @@
 
 using namespace std;
 
-double positronAnhillationLifetime(double lifetime1, double lifetime2, double lifetime3, double intensity1,
-                                    double intensity2, double intensity3, std::exponential_distribution<double>& distribution1,
-                                    std::exponential_distribution<double>& distribution2, std::exponential_distribution<double>& distribution3,
-                                    std::mt19937& generator)
-{
-    double overall_intensity = intensity1 + intensity2 + intensity3;
+double positronAnhillationLifetime(int NumberOfComponents, double lifetime1, double lifetime2, double lifetime3, double lifetime4, double lifetime5, double intensity1,
+    double intensity2, double intensity3, double intensity4, double intensity5, std::exponential_distribution<double>& distribution1,
+    std::exponential_distribution<double>& distribution2, std::exponential_distribution<double>& distribution3,
+    std::exponential_distribution<double>& distribution4, std::exponential_distribution<double>& distribution5,
+    std::mt19937& generator)
+
+{   double positronLifetime;
+    
+if (NumberOfComponents == 1) {
+    double overall_intensity = intensity1;
     double tolerance = 1e-9; // set a small tolerance value
     if (std::abs(overall_intensity - 1.0) > tolerance) {
         throw std::invalid_argument("Error: The intensities must sum up to 1!");
     }
 
-    double positronLifetime;
+
     double r = ((double)rand() / RAND_MAX);
-    if (r <= intensity1 / overall_intensity) 
+    if (r <= intensity1 / overall_intensity)
     {
         distribution1.param(std::exponential_distribution<double>::param_type(1 / lifetime1));
 
         positronLifetime = (distribution1(generator));
     }
-    else if (r <= (intensity1 + intensity2) / overall_intensity) 
-    {
-        distribution2.param(std::exponential_distribution<double>::param_type(1 / lifetime2));
+    }else if (NumberOfComponents == 2) {
+        double overall_intensity = intensity1 + intensity2 + intensity3;
+        double tolerance = 1e-9; // set a small tolerance value
+        if (std::abs(overall_intensity - 1.0) > tolerance) {
+            throw std::invalid_argument("Error: The intensities must sum up to 1!");
+        }
 
-        positronLifetime = (distribution2(generator));
-    }
-    else{
-        distribution3.param(std::exponential_distribution<double>::param_type(1 / lifetime3));
-        positronLifetime = (distribution3(generator));
-    }
 
+        double r = ((double)rand() / RAND_MAX);
+        if (r <= intensity1 / overall_intensity)
+        {
+            distribution1.param(std::exponential_distribution<double>::param_type(1 / lifetime1));
+
+            positronLifetime = (distribution1(generator));
+        }
+        else if (r <= (intensity1 + intensity2) / overall_intensity)
+        {
+            distribution2.param(std::exponential_distribution<double>::param_type(1 / lifetime2));
+
+            positronLifetime = (distribution2(generator));
+        }
+        else {
+            distribution3.param(std::exponential_distribution<double>::param_type(1 / lifetime3));
+            positronLifetime = (distribution3(generator));
+        }
+    }else if(NumberOfComponents == 3) {
+        double overall_intensity = intensity1 + intensity2 + intensity3;
+        double tolerance = 1e-9; // set a small tolerance value
+        if (std::abs(overall_intensity - 1.0) > tolerance) {
+            throw std::invalid_argument("Error: The intensities must sum up to 1!");
+        }
+
+        
+        double r = ((double)rand() / RAND_MAX);
+        if (r <= intensity1 / overall_intensity)
+        {
+            distribution1.param(std::exponential_distribution<double>::param_type(1 / lifetime1));
+
+            positronLifetime = (distribution1(generator));
+        }
+        else if (r <= (intensity1 + intensity2) / overall_intensity)
+        {
+            distribution2.param(std::exponential_distribution<double>::param_type(1 / lifetime2));
+
+            positronLifetime = (distribution2(generator));
+        }
+        else {
+            distribution3.param(std::exponential_distribution<double>::param_type(1 / lifetime3));
+            positronLifetime = (distribution3(generator));
+        }
+    }else if (NumberOfComponents == 4) {
+        double overall_intensity = intensity1 + intensity2 + intensity3 + intensity4;
+        double tolerance = 1e-9; // set a small tolerance value
+        if (std::abs(overall_intensity - 1.0) > tolerance) {
+            throw std::invalid_argument("Error: The intensities must sum up to 1!");
+        }
+
+
+        double r = ((double)rand() / RAND_MAX);
+        if (r <= intensity1 / overall_intensity)
+        {
+            distribution1.param(std::exponential_distribution<double>::param_type(1 / lifetime1));
+
+            positronLifetime = (distribution1(generator));
+        }
+        else if (r <= (intensity1 + intensity2) / overall_intensity)
+        {
+            distribution2.param(std::exponential_distribution<double>::param_type(1 / lifetime2));
+
+            positronLifetime = (distribution2(generator));
+        }
+        else if (r <= (intensity1 + intensity2 + intensity3) / overall_intensity)
+        {
+            distribution3.param(std::exponential_distribution<double>::param_type(1 / lifetime3));
+
+            positronLifetime = (distribution3(generator));
+        }
+        else {
+            distribution4.param(std::exponential_distribution<double>::param_type(1 / lifetime4));
+            positronLifetime = (distribution4(generator));
+        }
+    }else if (NumberOfComponents == 4) {
+        double overall_intensity = intensity1 + intensity2 + intensity3 + intensity4 + intensity5;
+        double tolerance = 1e-9; // set a small tolerance value
+        if (std::abs(overall_intensity - 1.0) > tolerance) {
+            throw std::invalid_argument("Error: The intensities must sum up to 1!");
+        }
+
+
+        double r = ((double)rand() / RAND_MAX);
+        if (r <= intensity1 / overall_intensity)
+        {
+            distribution1.param(std::exponential_distribution<double>::param_type(1 / lifetime1));
+
+            positronLifetime = (distribution1(generator));
+        }
+        else if (r <= (intensity1 + intensity2) / overall_intensity)
+        {
+            distribution2.param(std::exponential_distribution<double>::param_type(1 / lifetime2));
+
+            positronLifetime = (distribution2(generator));
+        }
+        else if (r <= (intensity1 + intensity2 + intensity3) / overall_intensity)
+        {
+            distribution3.param(std::exponential_distribution<double>::param_type(1 / lifetime3));
+
+            positronLifetime = (distribution3(generator));
+        }
+        else if (r <= (intensity1 + intensity2 + intensity3 + intensity4) / overall_intensity)
+        {
+            distribution4.param(std::exponential_distribution<double>::param_type(1 / lifetime4));
+
+            positronLifetime = (distribution4(generator));
+        }
+        else {
+            distribution5.param(std::exponential_distribution<double>::param_type(1 / lifetime5));
+            positronLifetime = (distribution5(generator));
+        }
+        }
     return positronLifetime;
 }
 

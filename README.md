@@ -11,7 +11,7 @@ This repository contains pre-configured programs for generating positron lifetim
 
 ## Introduction
 
-Positron Lifetime Spectroscopy (PLS) is a powerful technique used to study the microstructure of materials. By analyzing the time between the emission of a positron and the detection of the resulting gamma rays, researchers can gain insights into the atomic and electronic structure of the material. This repository provides a suite of tools to simulate various components of a positron lifetime spectrum, allowing users to model and analyze different scenarios.
+Positron Annihilation Lifetime Spectroscopy (PALS) is a powerful technique used to study the microstructure of materials. By analyzing the time between the emission of a positron and the detection of the resulting gamma rays, researchers can gain insights into the atomic and electronic structure of the material. This repository provides a suite of tools to simulate various components of a positron lifetime spectrum, allowing users to model and analyze different scenarios.
 
 ## Usage
 
@@ -26,9 +26,13 @@ Positron Lifetime Spectroscopy (PLS) is a powerful technique used to study the m
 
 ### Data Loading
 
-The first step in your simulation is to load the binary streams for the gamma energies. These streams represent the detected gamma rays at 511 keV and 1275 keV.
+The first step in your simulation is to load the binary streams for the gamma energies from the Modul 1. These streams represent the detected gamma rays at 511 keV and 1275 keV in your defined digital world.
 
 ```cpp
 // Example code to load gamma streams
 loadGammaStream("path/to/511keV_data");
 loadGammaStream("path/to/1275keV_data");
+
+
+![PHS_einstellungen](https://github.com/DB-science/Twin-PALS-Modul-2/assets/102671948/aed6b5af-461e-43e0-ae93-669b3d393922)
+

@@ -28,11 +28,11 @@ Positron Annihilation Lifetime Spectroscopy (PALS) is a powerful technique used 
 
 The first step in your simulation is to load the binary streams for the gamma energies from the Modul 1. These streams represent the detected gamma rays at 511 keV and 1275 keV in your defined digital world.
 
-```cpp
-// Example code to load gamma streams
-loadGammaStream("path/to/511keV_data");
-loadGammaStream("path/to/1275keV_data");
+![Input_Stream_from_modul1](https://github.com/DB-science/Twin-PALS-Modul-2/assets/102671948/852e71a9-c8d4-4d6f-8155-52e3ceac48cb)
 
 
-![PHS_einstellungen](https://github.com/DB-science/Twin-PALS-Modul-2/assets/102671948/aed6b5af-461e-43e0-ae93-669b3d393922)
+![PHS_einstellungen](https://github.com/DB-science/Twin-PALS-Modul-2/assets/102671948/c744483e-0f3a-4803-9d12-cd9a6173210d)
+
+
+![define_source_and_pulse_shape](https://github.com/DB-science/Twin-PALS-Modul-2/assets/102671948/0a6def47-ab0f-41ee-96d3-317a10e8abac)
 

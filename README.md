@@ -30,9 +30,16 @@ The first step in your simulation is to load the binary streams for the gamma en
 
 ![Input_Stream_from_modul1](https://github.com/DB-science/Twin-PALS-Modul-2/assets/102671948/852e71a9-c8d4-4d6f-8155-52e3ceac48cb)
 
+### Define PHS limits
 
+Here you define the conversion factor from number of photons on the sensitive area to the pulse height of the PMT pulse in mV. Also you can chose limits for your START and STOP windows in the PHS. Here it's important to define a lower limit for the STOP window to produce minor amount of data. (see picture for example)
 ![PHS_einstellungen](https://github.com/DB-science/Twin-PALS-Modul-2/assets/102671948/c744483e-0f3a-4803-9d12-cd9a6173210d)
 
+### Parameter Input
+After loading the data, you need to set various parameters for the simulation:
+
+Source Strength: Define the strength of the positron source.
+Pulse Shape: Here you can define the rise time and the pulse width of the resulting PMT pulse.
 
 ![define_source_and_pulse_shape](https://github.com/DB-science/Twin-PALS-Modul-2/assets/102671948/0a6def47-ab0f-41ee-96d3-317a10e8abac)
 

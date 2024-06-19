@@ -55,3 +55,7 @@ This project is licensed under the MIT License.
 ### Contact
 For questions or comments, please contact Your dominik.boras@uni-wuerzburg.de.
 
+# How to cite this Software? 
+<p style="font-size:16px;">You must cite the applied version of this software in your study.
+<p style="font-size:16px;">You can cite all versions by using the DOI 10.5281/zenodo.11470161. This DOI represents all versions, and will always resolve to the latest one
+

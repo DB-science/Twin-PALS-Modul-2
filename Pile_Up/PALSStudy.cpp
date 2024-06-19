@@ -113,15 +113,11 @@ int main() {
 	double PulseWidth = 15.0; //in ns
 	double risingEdge = 5.3; //in ns
 	// (0) defines ...
+
+	
 	//Output Stream for drs4
-
-
-
 	const std::string streamFileName = "G:/StreamsDissertation/RealesSetup/Geometrie/PileUp_Pulslength15ns_Zylinder1_PMMA_Sweep" + std::to_string(sweep) + "ns_" + std::to_string(SourcePower) + "uCi.drs4DataStream";
-
-
 	fstream myfile("G:/StreamsDissertation/RealesSetup/Geometrie/PileUp_Pulslength15ns_Zylinder1_PMMA_AnalyseParameter" + std::to_string(SourcePower) + "uCi.txt", ios::out);
-
 
 	//Input Streams
 

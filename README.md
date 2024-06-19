@@ -49,5 +49,9 @@ After loading the data, you need to set various parameters for the simulation:
 You can define a ground truth (GT) positron lifetime spectrum with up to 5 different lifetime components.
 ![Define_lifetime_GT](https://github.com/DB-science/Twin-PALS-Modul-2/assets/102671948/5edbcbeb-8210-43d4-8b17-3e55dcf3181b)
 
+### License
+This project is licensed under the MIT License.
 
+### Contact
+For questions or comments, please contact Your dominik.boras@uni-wuerzburg.de.
 

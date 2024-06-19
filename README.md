@@ -38,9 +38,9 @@ Here you define the conversion factor from number of photons on the sensitive ar
 ### Parameter Input
 After loading the data, you need to set various parameters for the simulation:
 
-Source Strength: Define the strength of the positron source.
-Sweep: You can chose the time window of your digitizer.
-Pulse Shape: Here you can define the rise time and the pulse width of the resulting PMT pulse.
+- **Source Strength: Define the strength of the positron source.
+- **Sweep: You can chose the time window of your digitizer.
+- **Pulse Shape: Here you can define the rise time and the pulse width of the resulting PMT pulse.
 
 ![define_source_and_pulse_shape](https://github.com/DB-science/Twin-PALS-Modul-2/assets/102671948/0a6def47-ab0f-41ee-96d3-317a10e8abac)
 

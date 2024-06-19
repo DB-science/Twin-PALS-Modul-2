@@ -44,3 +44,10 @@ After loading the data, you need to set various parameters for the simulation:
 
 ![define_source_and_pulse_shape](https://github.com/DB-science/Twin-PALS-Modul-2/assets/102671948/0a6def47-ab0f-41ee-96d3-317a10e8abac)
 
+### Define Ground Truth Positron Lifetime
+
+You can define a ground truth (GT) positron lifetime spectrum with up to 5 different lifetime components.
+![Define_lifetime_GT](https://github.com/DB-science/Twin-PALS-Modul-2/assets/102671948/5edbcbeb-8210-43d4-8b17-3e55dcf3181b)
+
+
+
